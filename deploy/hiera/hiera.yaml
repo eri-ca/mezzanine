@@ -1,0 +1,9 @@
+---
+:backends:
+   - yaml
+:yaml:
+   :datadir: hiera
+:hierarchy:
+   - %{::environment}/nodes/%{::clientcert}
+   - %{::environment}/vagrant
+   - %{::environment}/common

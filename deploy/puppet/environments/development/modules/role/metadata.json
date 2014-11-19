@@ -1,0 +1,17 @@
+{
+  "name": "my-role",
+  "version": "0.0.1",
+  "author": "Robert Erica",
+  "summary": "Puppet role module to implement roles and profiles pattern",
+  "license": "Apache 2.0",
+  "source": "github.com",
+  "project_page": "https://github.com",
+  "issues_url": "N/A",
+  "dependencies": [
+    {
+      "name": "puppetlabs-stdlib",
+      "version_range": ">= 1.0.0"
+    }
+  ]
+}
+
