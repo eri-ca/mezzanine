@@ -17,7 +17,7 @@ Vagrant.configure("2") do |config|
 
     snm.vm.provision :puppet do |puppet|
       puppet.facter = {
-	# The included version of facter is too old to work with the Epel module...
+	# The included version of facter is too old to work with the (most recent) Epel module...
         "operatingsystemmajrelease" => "6"
       }
       puppet.hiera_config_path = "deploy/hiera/hiera.yaml"
