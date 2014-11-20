@@ -5,8 +5,9 @@
 class profile::pythonenv {
 
   class { 'python' :
-    version => 'system',
-    pip     => true,
-    dev     => true,
+    version    => 'system',
+    pip        => true,
+    dev        => true,
+    virtualenv => true,
   }
 }
